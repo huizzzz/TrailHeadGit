@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Land --></label>
+    <name>Land__c</name>
+    <picklistValues>
+        <masterLabel>The Land1</masterLabel>
+        <translation><!-- The Land1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Land2</masterLabel>
+        <translation><!-- The Land2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
