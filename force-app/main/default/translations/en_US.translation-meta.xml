@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Conference --></label>
+        <name>Conference</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Dreamhouse Classic --></label>
+        <name>Dreamhouse_Classic</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Dreamhouse Lightning --></label>
+        <name>Dreamhouse_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- FriendswithBoats --></label>
+        <name>FriendswithBoats</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Home Page For TrailHead --></label>
+        <name>Home_Page_For_Trailhead</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- New Millennium Delivery --></label>
+        <name>New_Millennium_Delivery</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Inventory Level Low --></label>
+        <name>Inventory_Level_Low</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select One --></label>
+        <name>Select_One</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Data Import --></label>
+        <name>Data_Import</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Friends with Boats --></label>
+        <name>Friends_with_Boats</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Leads --></label>
+        <name>Leads</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <fullName>testMail-1</fullName>
+        </flows>
+        <fullName>testMail</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>any_name02-1</fullName>
+        </flows>
+        <fullName>any_name02</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>userTest-1</fullName>
+        </flows>
+        <fullName>userTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>EmailTest-1</fullName>
+        </flows>
+        <fullName>EmailTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>any_name-1</fullName>
+        </flows>
+        <fullName>any_name</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Synchronize_Outbound_Project_Data-1</fullName>
+        </flows>
+        <fullName>Synchronize_Outbound_Project_Data</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>userLanTest-2</fullName>
+            <textTemplates>
+                <name>EngVer</name>
+            </textTemplates>
+            <textTemplates>
+                <name>chatteruse</name>
+            </textTemplates>
+        </flows>
+        <fullName>userLanTest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>New_Lead-1</fullName>
+            <screens>
+                <fields>
+                    <name>Upload_File</name>
+                </fields>
+                <name>Component_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Company_Name</name>
+                </fields>
+                <fields>
+                    <name>Last_Name</name>
+                </fields>
+                <name>Lead_Screen</name>
+            </screens>
+        </flows>
+        <fullName>New_Lead</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Contact_address_change-4</fullName>
+        </flows>
+        <fullName>Contact_address_change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Update_Opportunity-1</fullName>
+        </flows>
+        <fullName>Update_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>UserLanguageCheck02-2</fullName>
+        </flows>
+        <fullName>UserLanguageCheck02</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

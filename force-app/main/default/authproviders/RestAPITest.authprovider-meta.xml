@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <consumerKey>3MVG9I1kFE5Iul2CChAFaVBM9s2Tab3KSlC4OMhf6hJnT.GmYRN_jDeyK6gAr2RZjQPjV1T8dCXzJDMHxdzWJ</consumerKey>
+    <consumerSecret>IaSLrYvEgCGKLNgN8BROs9mYlPeDenjIQmDukwZJEZ+I88/CarmWCGS6J2rCMrwZtQTiDXU7UAK36hbmJ3UydnBBGPdiC2rX</consumerSecret>
+    <defaultScopes>full refresh_token offline_access</defaultScopes>
+    <friendlyName>RestAPITest</friendlyName>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+</AuthProvider>
