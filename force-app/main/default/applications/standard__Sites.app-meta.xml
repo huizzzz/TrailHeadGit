@@ -6,6 +6,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Sites</tabs>
-    <tabs>Expense__c</tabs>
-    <tabs>Camping_Item__c</tabs>
 </CustomApplication>

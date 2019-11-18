@@ -5,7 +5,4 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Expense__c</tabs>
-    <tabs>Camping_Item__c</tabs>
-    <tabs>standard-Quote</tabs>
 </CustomApplication>

@@ -62,7 +62,7 @@
     </preferences>
     <preferences>
         <settingName>NetworksEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>NotesReservedPref01</settingName>
@@ -75,10 +75,6 @@
     <preferences>
         <settingName>PRMAccRelPref</settingName>
         <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>Packaging2</settingName>
-        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>PardotAppV1Enabled</settingName>
@@ -110,14 +106,10 @@
     </preferences>
     <preferences>
         <settingName>S1EncryptedStoragePref2</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>S1OfflinePref</settingName>
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
-        <settingName>ScratchOrgManagementPref</settingName>
+        <settingName>S1OfflinePref</settingName>
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
@@ -134,7 +126,7 @@
     </preferences>
     <preferences>
         <settingName>Translation</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>UpgradeInsecureRequestsPref</settingName>

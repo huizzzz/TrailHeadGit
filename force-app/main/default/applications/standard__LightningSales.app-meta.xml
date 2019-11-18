@@ -8,7 +8,7 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>Friends_with_Boats</tabs>
+    <tabs>standard-WaveHome</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
@@ -24,8 +24,5 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
-    <tabs>Expense__c</tabs>
-    <tabs>Camping_Item__c</tabs>
-    <tabs>standard-Quote</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

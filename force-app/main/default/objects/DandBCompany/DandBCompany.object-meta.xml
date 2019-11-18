@@ -86,7 +86,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>LocationStatus</customTabListAdditionalFields>
         <customTabListAdditionalFields>DunsNumber</customTabListAdditionalFields>

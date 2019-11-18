@@ -34,10 +34,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Audience</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
@@ -54,11 +50,11 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>CMSConnectSource</name>
+		<name>CallCenter</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>CallCenter</name>
+		<members>primaryModel</members>
+		<name>CampaignInfluenceModel</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -71,14 +67,6 @@
 	<types>
 		<members>*</members>
 		<name>Community</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CommunityTemplateDefinition</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>CommunityThemeDefinition</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -118,31 +106,23 @@
 	</types>
 	<types>
 		<members>Account</members>
-		<members>AccountBrand</members>
 		<members>AccountCleanInfo</members>
 		<members>AccountContactRole</members>
-		<members>ActiveScratchOrg</members>
 		<members>Activity</members>
+		<members>Address</members>
 		<members>Asset</members>
 		<members>AssetRelationship</members>
+		<members>AssignedResource</members>
 		<members>AssistantProgress</members>
+		<members>AssociatedLocation</members>
 		<members>AuthorizationForm</members>
 		<members>AuthorizationFormConsent</members>
 		<members>AuthorizationFormDataUse</members>
 		<members>AuthorizationFormText</members>
-		<members>BillingServiceCredential__c</members>
-		<members>BoatReview__c</members>
-		<members>BoatType__c</members>
-		<members>Boat__c</members>
-		<members>Broker__c</members>
 		<members>Campaign</members>
 		<members>CampaignMember</members>
-		<members>Camping_Item__c</members>
 		<members>Case</members>
 		<members>CaseContactRole</members>
-		<members>ChannelProgram</members>
-		<members>ChannelProgramLevel</members>
-		<members>ChannelProgramMember</members>
 		<members>ChatterActivity</members>
 		<members>CollaborationGroup</members>
 		<members>CollaborationGroupMember</members>
@@ -158,90 +138,103 @@
 		<members>DandBCompany</members>
 		<members>DataUseLegalBasis</members>
 		<members>DataUsePurpose</members>
+		<members>DigitalSignature</members>
 		<members>DuplicateRecordItem</members>
 		<members>DuplicateRecordSet</members>
 		<members>EmailMessage</members>
 		<members>Event</members>
 		<members>ExchangeUserMapping</members>
-		<members>Expense__c</members>
 		<members>ExpressionFilter</members>
 		<members>ExpressionFilterCriteria</members>
-		<members>Favorite__c</members>
 		<members>FeedItem</members>
 		<members>ForecastingCategoryMapping</members>
-		<members>Foundation_Countries__c</members>
-		<members>Foundation_States__c</members>
 		<members>Idea</members>
 		<members>Image</members>
 		<members>Individual</members>
-		<members>Inventory_Setting__mdt</members>
+		<members>JobProfile</members>
 		<members>Lead</members>
-		<members>LeadAssociation__c</members>
 		<members>LeadCleanInfo</members>
+		<members>Location</members>
 		<members>Macro</members>
 		<members>MacroAction</members>
 		<members>MacroInstruction</members>
 		<members>MacroUsage</members>
-		<members>NamespaceRegistry</members>
-		<members>NetworkMember</members>
-		<members>Offer__c</members>
+		<members>MaintenanceAsset</members>
+		<members>MaintenancePlan</members>
+		<members>OperatingHours</members>
 		<members>Opportunity</members>
 		<members>OpportunityCompetitor</members>
 		<members>OpportunityContactRole</members>
 		<members>OpportunityLineItem</members>
 		<members>Order</members>
 		<members>OrderItem</members>
-		<members>OrgDeleteRequest</members>
 		<members>OrgMetricScanResult</members>
 		<members>OrgMetricScanSummary</members>
-		<members>PartnerFundAllocation</members>
-		<members>PartnerFundClaim</members>
-		<members>PartnerFundRequest</members>
-		<members>PartnerMarketingBudget</members>
 		<members>PartnerRole</members>
 		<members>Pricebook2</members>
 		<members>PricebookEntry</members>
 		<members>Product2</members>
+		<members>ProductConsumed</members>
 		<members>ProductConsumptionSchedule</members>
-		<members>Project__c</members>
+		<members>ProductItem</members>
+		<members>ProductItemTransaction</members>
+		<members>ProductRequest</members>
+		<members>ProductRequestLineItem</members>
+		<members>ProductRequired</members>
+		<members>ProductTransfer</members>
+		<members>ProfileSkill</members>
+		<members>ProfileSkillEndorsement</members>
+		<members>ProfileSkillUser</members>
 		<members>PromptAction</members>
-		<members>Property__c</members>
 		<members>QuickText</members>
 		<members>QuickTextUsage</members>
-		<members>Quote</members>
-		<members>QuoteLineItem</members>
 		<members>Recommendation</members>
 		<members>RecordAction</members>
 		<members>RecordMergeHistory</members>
-		<members>RequestsForAccessSIQ</members>
+		<members>ResourceAbsence</members>
+		<members>ResourcePreference</members>
+		<members>ReturnOrder</members>
+		<members>ReturnOrderLineItem</members>
+		<members>RevenueElement</members>
 		<members>Scorecard</members>
 		<members>ScorecardAssociation</members>
 		<members>ScorecardMetric</members>
-		<members>ScratchOrgInfo</members>
-		<members>ServiceCredentials__c</members>
-		<members>ServiceTokens__c</members>
-		<members>Session_Speaker__c</members>
-		<members>Session__c</members>
+		<members>ServiceAppointment</members>
+		<members>ServiceAppointmentCapacityUsage</members>
+		<members>ServiceCrew</members>
+		<members>ServiceCrewMember</members>
+		<members>ServiceReport</members>
+		<members>ServiceResource</members>
+		<members>ServiceResourceCapacity</members>
+		<members>ServiceResourceSkill</members>
+		<members>ServiceTerritory</members>
+		<members>ServiceTerritoryLocation</members>
+		<members>ServiceTerritoryMember</members>
+		<members>Shift</members>
+		<members>Shipment</members>
 		<members>Site</members>
+		<members>SkillRequirement</members>
 		<members>SocialPersona</members>
 		<members>Solution</members>
-		<members>Speaker__c</members>
-		<members>StreamActivityAccess</members>
 		<members>StreamingChannel</members>
 		<members>Task</members>
+		<members>TimeSheet</members>
+		<members>TimeSheetEntry</members>
+		<members>TimeSlot</members>
 		<members>Topic</members>
 		<members>TopicAssignment</members>
 		<members>User</members>
 		<members>UserProvisioningRequest</members>
-		<members>Vehicle__c</members>
 		<members>WorkBadge</members>
 		<members>WorkBadgeDefinition</members>
+		<members>WorkCapacityLimit</members>
+		<members>WorkCapacityUsage</members>
+		<members>WorkOrder</members>
+		<members>WorkOrderLineItem</members>
 		<members>WorkThanks</members>
-		<members>Work_Part__c</members>
-		<members>invoices__x</members>
-		<members>property01__c</members>
-		<members>test__c</members>
-		<members>test_test__c</members>
+		<members>WorkType</members>
+		<members>WorkTypeGroup</members>
+		<members>WorkTypeGroupMember</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -279,10 +272,6 @@
 	<types>
 		<members>*</members>
 		<name>EclairGeoData</name>
-	</types>
-	<types>
-		<members>EmailToCase</members>
-		<name>EmailServicesFunction</name>
 	</types>
 	<types>
 		<members>Case</members>
@@ -338,10 +327,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>KeywordList</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>Layout</name>
 	</types>
 	<types>
@@ -358,23 +343,11 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>ManagedTopics</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>MatchingRules</name>
 	</types>
 	<types>
 		<members>*</members>
-		<name>ModerationRule</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>NamedCredential</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Network</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -426,11 +399,6 @@
 	</types>
 	<types>
 		<members>ApexDevNet</members>
-		<members>BillingService</members>
-		<members>InstanceName</members>
-		<members>animals_http</members>
-		<members>animals_soap</members>
-		<members>th_superbadge</members>
 		<name>RemoteSiteSetting</name>
 	</types>
 	<types>
@@ -502,6 +470,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Skill</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>StandardValueSetTranslation</name>
 	</types>
 	<types>
@@ -519,10 +491,6 @@
 	<types>
 		<members>*</members>
 		<name>TransactionSecurityPolicy</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Translations</name>
 	</types>
 	<types>
 		<members>*</members>

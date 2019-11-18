@@ -29,6 +29,10 @@
                 <behavior>Required</behavior>
                 <field>Priority</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -108,6 +112,30 @@
         <style>CustomLinks</style>
     </layoutSections>
     <quickActionList>
+        <quickActionListItems>
+            <quickActionName>Task.EditDescription_4</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.Defer_4</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdateStatus_4</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdatePriority_4</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.EditDescription_3</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.Defer_3</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdateStatus_3</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdatePriority_3</quickActionName>
+        </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Task.EditDescription_2</quickActionName>
         </quickActionListItems>

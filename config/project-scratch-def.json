@@ -1,12 +1,10 @@
 {
-  "orgName": "Dreamhouse",
+  "orgName": "Demo Company",
   "edition": "Developer",
-  "hasSampleData": "false",
+  "features": [],
   "settings": {
     "orgPreferenceSettings": {
-      "s1DesktopEnabled": true,
-      "selfSetPasswordInApi": true,
-      "s1EncryptedStoragePref2": false
+      "s1DesktopEnabled": true
     }
   }
 }

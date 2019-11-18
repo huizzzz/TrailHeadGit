@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Contact_must_be_in_Account_ZIP_Code</fullName>
-    <active>true</active>
-    <errorConditionFormula>and(!ISBLANK(AccountId), MailingPostalCode != Account.ShippingPostalCode)</errorConditionFormula>
-    <errorMessage>Can&#39;t save the record when MailingPostalCode not equals Account&#39;s ShippingPostalCode</errorMessage>
-</ValidationRule>

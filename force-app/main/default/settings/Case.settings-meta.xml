@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <caseAssignNotificationTemplate>unfiled$public/SupportCaseAssignmentNotification</caseAssignNotificationTemplate>
-    <caseAutoProcUser>false</caseAutoProcUser>
-    <caseCreateNotificationTemplate>unfiled$public/SupportCaseCreatedPhoneInquiries</caseCreateNotificationTemplate>
     <caseFeedItemSettings>
         <characterLimit>400</characterLimit>
         <collapseThread>true</collapseThread>
@@ -12,37 +9,14 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>hui.zhang.zzzz@playful-moose-miv0m7.com</defaultCaseOwner>
+    <defaultCaseOwner>test-39b1j39vsfop@example.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>hui.zhang.zzzz@playful-moose-miv0m7.com</defaultCaseUser>
+    <defaultCaseUser>test-39b1j39vsfop@example.com</defaultCaseUser>
     <emailToCase>
-        <enableE2CSourceTracking>true</enableE2CSourceTracking>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>true</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>true</enableThreadIDInBody>
-        <enableThreadIDInSubject>true</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Bounce</overEmailLimitAction>
-        <preQuoteSignature>true</preQuoteSignature>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Phone</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>true</createTask>
-            <emailAddress>naturezhang1994@163.com</emailAddress>
-            <emailServicesAddress>naturezhang1994@2tbc7xdegbfum9vdwxm3mi2k5xmlossqobhib04cpmoxskz74y.1-1icreaq.ap0.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>naturezhang1994@163.com</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
-            <taskStatus>Not Started</taskStatus>
-        </routingAddresses>
-        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
@@ -50,12 +24,10 @@
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
-    <systemUserEmail>hui.zhang.zzzz@gmail.com</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
         <caseOrigin>Web</caseOrigin>
-        <defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
         <enableWebToCase>true</enableWebToCase>
     </webToCase>
 </CaseSettings>
