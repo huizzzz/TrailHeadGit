@@ -1,0 +1,34 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="testSideBarController">
+    <aura:attribute name="sidebar" type="Aura.Component[]"/>
+    <aura:attribute name="title" type="String" description="" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" description="" />
+    <!--<aura:handler name="initMulti" value="{!this}" action="{!c.doInitMulti}" description="" />-->
+    <aura:attribute name="myMap" type="Map"/>
+    <aura:attribute name="myList" type="List"/>
+    <aura:attribute name="lvList" type="ListView[]"/>
+    <h1>業務メニュー</h1>
+    <!--<p>
+        <aura:iteration items="{!v.myList}" var="list" indexVar="key">
+            <ui:outputURL value="{!'/lightning/o/'+ list.value + '/list?filterName=' + list.key}" label="testSidebar"/><br/>
+        </aura:iteration>
+        
+    </p>-->
+    <p>
+        <aura:iteration items="{!v.lvList}" var="lv">
+            <ui:outputURL value="{!'/lightning/o/'+ lv.SobjectType + '/list?filterName=' + lv.Id}" label="{!lv.Name}"/><br/>
+        </aura:iteration>
+        
+    </p>
+    <h1>関連リンク</h1>
+    <!--<p>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・電子取引情報" onclick="{!c.openDenShiJoHo}" class="common"/><br/>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・外注図面システム" onclick="{!c.openGaiTyuzuMen}"/><br/>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・支給品持出情報" onclick="{!c.openShiKyuHinJoHo}"/><br/>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・e-sourcing/Trader(見積評価サービス)" onclick="{!c.openEsourceTrader}"/><br/>
+    </p>	    
+    <h1>ヘルプ＆サポート</h1>
+    <p>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・マニュアル" onclick="{!c.openManual}"/><br/>
+        <lightning:button variant="base" aura:id="normal" label="&nbsp;&nbsp;&nbsp;・お問い合わせ先" onclick="{!c.openToIAWaSe}"/><br/>
+    </p>-->
+</aura:component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#9DD459</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>FriendswithBoats</label>
+    <navType>Standard</navType>
+    <tabs>Friends_with_Boats</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>FriendswithBoats_UtilityBar</utilityBar>
+</CustomApplication>
