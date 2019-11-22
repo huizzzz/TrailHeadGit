@@ -2,7 +2,11 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/Leaflet": [
+                "../staticresources/Leaflet/Leaflet.js"
+            ]
+        }
     },
     "include": [
         "**/*",
